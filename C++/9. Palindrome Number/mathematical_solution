@@ -1,0 +1,26 @@
+long long data type for ans variable is used due to the given constraint -231 <= x <= 231 - 1
+
+:::Understanding by tracing:::
+let's take 984 as an example
+ans is initialized with 0 and the value of x is stored in another variable named num.
+iterating over a while until the condition num is not equal to 0.
+ans=(ans*10)+num%10
+num=num/10
+-->Iteration 1
+-> ans=(0*10)+984%10
+-> ans=0+4
+-> ans=4
+-> num=984/10
+-> num=98
+-->Iteration 2
+-> ans=(4*10)+98%10
+-> ans=40+8
+-> ans=48
+-> num=98/10
+-> num=9
+-->Iteration 3
+-> ans=(48*10)+9%10
+-> ans=480+9
+-> ans=489
+-> num=9/10
+-> num=0

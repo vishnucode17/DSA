@@ -1,4 +1,4 @@
-Most Efficient solution for roating an matrix around 90 degrees is to transpose the matrix and then flip it along the main diagonal.;
+Most Efficient solution for roating an matrix around 90 degrees is to transpose the matrix and then flip it along the main diagonal.
 
 Analysing the time complexity using std::reverse function which used in using_transpose_swap_and_reverse_function.cpp program:
 

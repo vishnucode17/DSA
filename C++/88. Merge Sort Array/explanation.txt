@@ -1,0 +1,5 @@
+Two pointer solution memory usage beats 99.99 % of cpp submissions.
+
+The two pointer concept is used to solve the question
+
+The while is made to run until the size of the array is m+n
